@@ -1,0 +1,37 @@
+body {
+    /* Set background image here */
+    background-image: url('pixar_background.jpeg');
+
+    /* Put font here */
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+h1 {
+    color: antiquewhite;
+    /*background-color: black;
+    padding: 20px;
+    border: 15px solid white;
+    margin: 40px;*/
+}
+
+header {
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+.nav_items {
+    /* removing bullet points*/
+    list-style: none;
+}
+
+.nav_items li {
+    display: inline-block;
+    padding: 2px 15px;
+}
+
+.nav_items li a:hover {
+    color: black;
+}
